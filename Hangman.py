@@ -1,6 +1,6 @@
 import random
 
-words = ['lion', 'tiger', 'dog', 'cat', 'cow', 'zebera', 'girraf', 'monkey', 'elephant', 'bear', 'panda', 'leaopard', 'jackle']
+words = ['lion', 'tiger', 'dog', 'cat', 'cow', 'zebera', 'girraf', 'monkey', 'elephant', 'bear', 'panda', 'leopard', 'jackal']
 
 def select_word(words_list):
     return random.choice(words_list)
