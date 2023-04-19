@@ -3,11 +3,9 @@ import random
 words = ['lion', 'tiger', 'dog', 'cat', 'cow', 'zebera', 'girraf', 'monkey', 'elephant', 'bear', 'panda', 'leaopard', 'jackle']
 
 def select_word(words_list):
-    """Select a random word from the list."""
     return random.choice(words_list)
 
 def play_hangman(word):
-    """Play the hangman game."""
     guessed_letters = set()
     remaining_attempts = 6
 
